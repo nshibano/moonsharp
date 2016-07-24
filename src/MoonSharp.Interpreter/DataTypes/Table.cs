@@ -162,7 +162,7 @@ namespace MoonSharp.Interpreter
 
 			if (prev.Value == null || prev.Value.IsNil())
 			{
-				CollectDeadKeys();
+				//CollectDeadKeys();
 
 				if (isNumber)
 					m_CachedLength = -1;

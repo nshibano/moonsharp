@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.31101.0
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoonSharp", "MoonSharp\MoonSharp.csproj", "{2A4BD262-D6EB-4611-A28B-27B6DAEB089B}"
 EndProject
@@ -38,6 +38,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MoonSharp.Hardwire.net35-client", "MoonSharp.Hardwire\MoonSharp.Hardwire.net35-client.csproj", "{B25A2316-6897-4CAA-BE0E-E784071D8199}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTestRunner", "TestRunners\ConsoleTestRunner\ConsoleTestRunner.csproj", "{470C034F-1F1F-499C-9499-DC00B9EEEDE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApplication1", "ConsoleApplication1\ConsoleApplication1.csproj", "{594D2300-3BCF-4D67-890F-77399845A2A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -234,6 +236,38 @@ Global
 		{470C034F-1F1F-499C-9499-DC00B9EEEDE9}.Release|x64.ActiveCfg = Release|Any CPU
 		{470C034F-1F1F-499C-9499-DC00B9EEEDE9}.Release|x86.ActiveCfg = Release|x86
 		{470C034F-1F1F-499C-9499-DC00B9EEEDE9}.Release|x86.Build.0 = Release|x86
+		{594D2300-3BCF-4D67-890F-77399845A2A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{594D2300-3BCF-4D67-890F-77399845A2A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{594D2300-3BCF-4D67-890F-77399845A2A1}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{594D2300-3BCF-4D67-890F-77399845A2A1}.Debug|ARM.Build.0 = Debug|Any CPU
+		{594D2300-3BCF-4D67-890F-77399845A2A1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{594D2300-3BCF-4D67-890F-77399845A2A1}.Debug|x64.Build.0 = Debug|Any CPU
+		{594D2300-3BCF-4D67-890F-77399845A2A1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{594D2300-3BCF-4D67-890F-77399845A2A1}.Debug|x86.Build.0 = Debug|Any CPU
+		{594D2300-3BCF-4D67-890F-77399845A2A1}.Dev|Any CPU.ActiveCfg = Debug|Any CPU
+		{594D2300-3BCF-4D67-890F-77399845A2A1}.Dev|Any CPU.Build.0 = Debug|Any CPU
+		{594D2300-3BCF-4D67-890F-77399845A2A1}.Dev|ARM.ActiveCfg = Debug|Any CPU
+		{594D2300-3BCF-4D67-890F-77399845A2A1}.Dev|ARM.Build.0 = Debug|Any CPU
+		{594D2300-3BCF-4D67-890F-77399845A2A1}.Dev|x64.ActiveCfg = Debug|Any CPU
+		{594D2300-3BCF-4D67-890F-77399845A2A1}.Dev|x64.Build.0 = Debug|Any CPU
+		{594D2300-3BCF-4D67-890F-77399845A2A1}.Dev|x86.ActiveCfg = Debug|Any CPU
+		{594D2300-3BCF-4D67-890F-77399845A2A1}.Dev|x86.Build.0 = Debug|Any CPU
+		{594D2300-3BCF-4D67-890F-77399845A2A1}.Devp4|Any CPU.ActiveCfg = Debug|Any CPU
+		{594D2300-3BCF-4D67-890F-77399845A2A1}.Devp4|Any CPU.Build.0 = Debug|Any CPU
+		{594D2300-3BCF-4D67-890F-77399845A2A1}.Devp4|ARM.ActiveCfg = Debug|Any CPU
+		{594D2300-3BCF-4D67-890F-77399845A2A1}.Devp4|ARM.Build.0 = Debug|Any CPU
+		{594D2300-3BCF-4D67-890F-77399845A2A1}.Devp4|x64.ActiveCfg = Debug|Any CPU
+		{594D2300-3BCF-4D67-890F-77399845A2A1}.Devp4|x64.Build.0 = Debug|Any CPU
+		{594D2300-3BCF-4D67-890F-77399845A2A1}.Devp4|x86.ActiveCfg = Debug|Any CPU
+		{594D2300-3BCF-4D67-890F-77399845A2A1}.Devp4|x86.Build.0 = Debug|Any CPU
+		{594D2300-3BCF-4D67-890F-77399845A2A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{594D2300-3BCF-4D67-890F-77399845A2A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{594D2300-3BCF-4D67-890F-77399845A2A1}.Release|ARM.ActiveCfg = Release|Any CPU
+		{594D2300-3BCF-4D67-890F-77399845A2A1}.Release|ARM.Build.0 = Release|Any CPU
+		{594D2300-3BCF-4D67-890F-77399845A2A1}.Release|x64.ActiveCfg = Release|Any CPU
+		{594D2300-3BCF-4D67-890F-77399845A2A1}.Release|x64.Build.0 = Release|Any CPU
+		{594D2300-3BCF-4D67-890F-77399845A2A1}.Release|x86.ActiveCfg = Release|Any CPU
+		{594D2300-3BCF-4D67-890F-77399845A2A1}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
